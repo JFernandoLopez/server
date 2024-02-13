@@ -1,12 +1,16 @@
-const express = require('express');
-const cors = require('cors')
-
-const app = express()
-app.use(express.json());
-app.use(cors())
+const { app } = require('./src/index');
+const { sequelize } = require('./src/db')
+require('dotenv').config;
+const { PORT } = process.env;
 
 
-
-app.listen(3001, () => {
-    console.log(`Server started on port: 3001`);
-})
+sequelize
+    .sync({alter: true})
+    .then(() => {
+        app.listen(PORT, () => {
+            console.log(`Server started on port: ${PORT}`);
+        })
+    })
+    .catch(error => {
+        console.log(error);
+    })
