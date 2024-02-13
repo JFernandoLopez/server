@@ -5,10 +5,13 @@ module.exports = (sequelize) => {
         "Room",
         {
             id: {
-                type: DataTypes.UUID,
-                defaultValue: DataTypes.UUIDV4,
+                type: DataTypes.INTEGER,
+                autoIncrement: true,
                 allowNull: false,
-                primaryKey: true
+                primaryKey: true,
+                validate: {
+                    max: 100,
+                }
             },
             type: {
                 type: DataTypes.STRING,
