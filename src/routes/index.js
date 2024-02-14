@@ -1,9 +1,14 @@
 const express = require('express');
 const router = express.Router();
-
+//Create
 const { createRoomHandler } = require('../controllers/createRoom');
 const { createUserHandler } = require('../controllers/createUser');
+//Get all
+
+//Get by property
 const { getUserByIdHandler } = require('../controllers/getUserById');
+const { getRoomByIdHandler } = require('../controllers/getRoomById');
+//Check In and Check Out
 const { asignRoomHandler } = require('../controllers/checkIn');
 const { checkOutHandler } = require('../controllers/checkOut');
 
@@ -16,6 +21,7 @@ router.post("/user", createUserHandler);
 router.get("/user", getUserByIdHandler);
 //Get Rooms
 //Get RoomsById
+router.get("/room", getRoomByIdHandler);
 //Check-in
 router.put("/check-in", asignRoomHandler);
 //Check-out
