@@ -1,6 +1,6 @@
 const { checkOut } = require('../handlers/checkOut');
 
-const checkOutHander = async(req, res) => {
+const checkOutHandler = async(req, res) => {
     try {
         const {
             id,
@@ -15,5 +15,5 @@ const checkOutHander = async(req, res) => {
 }
 
 module.exports = {
-    checkOutHander,
+    checkOutHandler,
 }
