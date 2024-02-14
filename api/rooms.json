@@ -1,0 +1,191 @@
+[
+    {
+    "type": "double",
+    "floor": 1,
+    "price": 1000,
+    "description": "Habitación doble con dos camas individuales, mesa de trabajo y baño privado. 40 metros cuadrados.",
+    "image": "https://example.com/double1.jpg"
+    },
+    {
+    "type": "double",
+    "floor": 1,
+    "price": 1000,
+    "description": "Habitación doble con dos camas individuales, mesa de trabajo y baño privado. 40 metros cuadrados.",
+    "image": "https://example.com/double2.jpg"
+    },
+    {
+    "type": "double",
+    "floor": 1,
+    "price": 1000,
+    "description": "Habitación doble con dos camas individuales, mesa de trabajo y baño privado. 40 metros cuadrados.",
+    "image": "https://example.com/double3.jpg"
+    },
+    {
+    "type": "double",
+    "floor": 1,
+    "price": 1000,
+    "description": "Habitación doble con dos camas individuales, mesa de trabajo y baño privado. 40 metros cuadrados.",
+    "image": "https://example.com/double4.jpg"
+    },
+    {
+    "type": "double",
+    "floor": 1,
+    "price": 1000,
+    "description": "Habitación doble con dos camas individuales, mesa de trabajo y baño privado. 40 metros cuadrados.",
+    "image": "https://example.com/double5.jpg"
+    },
+    {
+    "type": "double",
+    "floor": 1,
+    "price": 1000,
+    "description": "Habitación doble con dos camas individuales, mesa de trabajo y baño privado. 40 metros cuadrados.",
+    "image": "https://example.com/double6.jpg"
+    },
+    {
+    "type": "single room",
+    "floor": 2,
+    "price": 500,
+    "description": "Habitación individual con cama queen size, escritorio y baño privado. 30 metros cuadrados.",
+    "image": "https://example.com/single_room7.jpg"
+    },
+    {
+    "type": "single room",
+    "floor": 2,
+    "price": 500,
+    "description": "Habitación individual con cama queen size, escritorio y baño privado. 30 metros cuadrados.",
+    "image": "https://example.com/single_room8.jpg"
+    },
+    {
+    "type": "single room",
+    "floor": 2,
+    "price": 500,
+    "description": "Habitación individual con cama queen size, escritorio y baño privado. 30 metros cuadrados.",
+    "image": "https://example.com/single_room8.jpg"
+    },
+    {
+    "type": "single room",
+    "floor": 3,
+    "price": 500,
+    "description": "Habitación individual con cama queen size, escritorio y baño privado. 30 metros cuadrados.",
+    "image": "https://example.com/single_room2.jpg"
+    },
+    {
+    "type": "single room",
+    "floor": 3,
+    "price": 500,
+    "description": "Habitación individual con cama queen size, escritorio y baño privado. 30 metros cuadrados.",
+    "image": "https://example.com/single_room1.jpg"
+    },
+    {
+    "type": "single room",
+    "floor": 3,
+    "price": 500,
+    "description": "Habitación individual con cama queen size, escritorio y baño privado. 30 metros cuadrados.",
+    "image": "https://example.com/single_room3.jpg"
+    },
+    {
+    "type": "single room",
+    "floor": 3,
+    "price": 500,
+    "description": "Habitación individual con cama queen size, escritorio y baño privado. 30 metros cuadrados.",
+    "image": "https://example.com/single_room4.jpg"
+    },
+    {
+    "type": "single room",
+    "floor": 3,
+    "price": 500,
+    "description": "Habitación individual con cama queen size, escritorio y baño privado. 30 metros cuadrados.",
+    "image": "https://example.com/single_room5.jpg"
+    },
+    {
+    "type": "single room",
+    "floor": 3,
+    "price": 500,
+    "description": "Habitación individual con cama queen size, escritorio y baño privado. 30 metros cuadrados.",
+    "image": "https://example.com/single_room6.jpg"
+    },
+    {
+    "type": "familiar",
+    "floor": 4,
+    "price": 1000,
+    "description": "Habitación familiar con dos camas queen size, sofá cama, mesa de trabajo y baño privado. 60 metros cuadrados.",
+    "image": "https://example.com/familiar1.jpg"
+    },
+    {
+    "type": "familiar",
+    "floor": 4,
+    "price": 1000,
+    "description": "Habitación familiar con dos camas queen size, sofá cama, mesa de trabajo y baño privado. 60 metros cuadrados.",
+    "image": "https://example.com/familiar2.jpg"
+    },
+    {
+    "type": "familiar",
+    "floor": 4,
+    "price": 1000,
+    "description": "Habitación familiar con dos camas queen size, sofá cama, mesa de trabajo y baño privado. 60 metros cuadrados.",
+    "image": "https://example.com/familiar3.jpg"
+    },
+    {
+    "type": "familiar",
+    "floor": 4,
+    "price": 1000,
+    "description": "Habitación familiar con dos camas queen size, sofá cama, mesa de trabajo y baño privado. 60 metros cuadrados.",
+    "image": "https://example.com/familiar4.jpg"
+    },
+    {
+    "type": "familiar",
+    "floor": 4,
+    "price": 1000,
+    "description": "Habitación familiar con dos camas queen size, sofá cama, mesa de trabajo y baño privado. 60 metros cuadrados.",
+    "image": "https://example.com/familiar5.jpg"
+    },
+    {
+    "type": "familiar",
+    "floor": 4,
+    "price": 1000,
+    "description": "Habitación familiar con dos camas queen size, sofá cama, mesa de trabajo y baño privado. 60 metros cuadrados.",
+    "image": "https://example.com/familiar6.jpg"
+    },
+    {
+    "type": "suite",
+    "floor": 5,
+    "price": 2500,
+    "description": "Suite con cama king size, sofá, mesa de trabajo y baño privado. 50 metros cuadrados.",
+    "image": "https://example.com/suite1.jpg"
+    },
+    {
+    "type": "suite",
+    "floor": 5,
+    "price": 2500,
+    "description": "Suite con cama king size, sofá, mesa de trabajo y baño privado. 50 metros cuadrados.",
+    "image": "https://example.com/suite3.jpg"
+    },
+    {
+    "type": "suite",
+    "floor": 5,
+    "price": 2500,
+    "description": "Suite con cama king size, sofá, mesa de trabajo y baño privado. 50 metros cuadrados.",
+    "image": "https://example.com/suite4.jpg"
+    },
+    {
+    "type": "suite",
+    "floor": 5,
+    "price": 2500,
+    "description": "Suite con cama king size, sofá, mesa de trabajo y baño privado. 50 metros cuadrados.",
+    "image": "https://example.com/suite5.jpg"
+    },
+    {
+    "type": "suite",
+    "floor": 5,
+    "price": 2500,
+    "description": "Suite con cama king size, sofá, mesa de trabajo y baño privado. 50 metros cuadrados.",
+    "image": "https://example.com/suite6.jpg"
+    },
+    {
+    "type": "suite",
+    "floor": 5,
+    "price": 2500,
+    "description": "Suite con cama king size, sofá, mesa de trabajo y baño privado. 50 metros cuadrados.",
+    "image": "https://example.com/suite2.jpg"
+    }       
+]

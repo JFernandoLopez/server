@@ -1,0 +1,52 @@
+[
+    {
+    "name": "John Doe",
+    "email": "john@example.com",
+    "identityCard": "123456789A"
+    },
+    {
+    "name": "Jane Smith",
+    "email": "jane@example.com",
+    "identityCard": "987654321B"
+    },
+    {
+    "name": "Michael Johnson",
+    "email": "michael@example.com",
+    "identityCard": "456789123C"
+    },
+    {
+    "name": "Emily Davis",
+    "email": "emily@example.com",
+    "identityCard": "654321987D"
+    },
+    {
+    "name": "Daniel Wilson",
+    "email": "daniel@example.com",
+    "identityCard": "789123456E"
+    },
+    {
+    "name": "Sarah Brown",
+    "email": "sarah@example.com",
+    "identityCard": "321987654F"
+    },
+    {
+    "name": "Matthew Taylor",
+    "email": "matthew@example.com",
+    "identityCard": "147258369G"
+    },
+    {
+    "name": "Olivia Martinez",
+    "email": "olivia@example.com",
+    "identityCard": "963852741H"
+    },
+    {
+    "name": "David Garcia",
+    "email": "david@example.com",
+    "identityCard": "258369147I"
+    },
+    {
+    "name": "Emma Rodriguez",
+    "email": "emma@example.com",
+    "identityCard": "852741963J"
+    }
+]

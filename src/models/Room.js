@@ -10,7 +10,7 @@ module.exports = (sequelize) => {
                 allowNull: false,
                 primaryKey: true,
                 validate: {
-                    max: 100,
+                    max: 30,
                 }
             },
             type: {
