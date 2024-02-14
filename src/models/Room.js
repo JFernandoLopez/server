@@ -21,7 +21,7 @@ module.exports = (sequelize) => {
                 type: DataTypes.INTEGER,
                 allowNull: false
             },
-            state:{
+            status:{
                 type: DataTypes.BOOLEAN,
                 allowNull: false,
                 defaultValue: false
@@ -29,6 +29,14 @@ module.exports = (sequelize) => {
             price: {
                 type: DataTypes.INTEGER,
                 allowNull: false
+            },
+            description: {
+                type: DataTypes.TEXT,
+                allowNull: true
+            },
+            image: {
+                type: DataTypes.STRING,
+                allowNull: true
             }
         },
         { timestamps: true, paranoid: true }
