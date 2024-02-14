@@ -19,6 +19,11 @@ module.exports = (sequelize) => {
                 allowNull: false,
                 unique: true
             },
+            identityCard: {
+                type: DataTypes.STRING,
+                allowNull: false,
+                unique: true
+            }
         },
         { timestamps: true, paranoid: true }
     );

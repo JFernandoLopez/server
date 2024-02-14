@@ -4,10 +4,10 @@ const checkOutHandler = async(req, res) => {
     try {
         const {
             id,
-            userId
+            userID
         } = req.body;
-        const check = await checkOut(id, userId)
-        console.log(`User ${userId} left Room ${id}`);
+        const check = await checkOut(id, userID)
+        console.log(`User ${userID} left Room ${id}`);
         res.status(200).json(check);
     } catch (error) {
         res.status(400).send(error.message);
