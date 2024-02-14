@@ -4,6 +4,7 @@ const router = express.Router();
 const { createRoomHandler } = require('../controllers/createRoom');
 const { createUserHandler } = require('../controllers/createUser');
 //Get all
+const { getRoomsHandler } = require('../controllers/getRooms');
 
 //Get by property
 const { getUserByIdHandler } = require('../controllers/getUserById');
@@ -20,6 +21,7 @@ router.post("/user", createUserHandler);
 //Get UserById
 router.get("/user", getUserByIdHandler);
 //Get Rooms
+router.get("/rooms", getRoomsHandler);
 //Get RoomsById
 router.get("/room", getRoomByIdHandler);
 //Check-in
