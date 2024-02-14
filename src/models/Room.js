@@ -25,6 +25,10 @@ module.exports = (sequelize) => {
                 type: DataTypes.BOOLEAN,
                 allowNull: false,
                 defaultValue: false
+            },
+            price: {
+                type: DataTypes.INTEGER,
+                allowNull: false
             }
         },
         { timestamps: true, paranoid: true }
