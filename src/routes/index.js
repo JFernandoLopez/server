@@ -5,7 +5,7 @@ const { createRoomHandler } = require('../controllers/createRoom');
 const { createUserHandler } = require('../controllers/createUser');
 //Get all
 const { getRoomsHandler } = require('../controllers/getRooms');
-
+const { getUsersHandler } = require('../controllers/getAllUsers');
 //Get by property
 const { getUserByIdHandler } = require('../controllers/getUserById');
 const { getRoomByIdHandler } = require('../controllers/getRoomById');
@@ -17,7 +17,8 @@ const { checkOutHandler } = require('../controllers/checkOut');
 router.post("/room", createRoomHandler);
 //Create User
 router.post("/user", createUserHandler);
-//Get Useres
+//Get Users
+router.get("/users", getUsersHandler);
 //Get UserById
 router.get("/user", getUserByIdHandler);
 //Get Rooms
