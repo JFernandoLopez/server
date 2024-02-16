@@ -7,8 +7,15 @@ const asignRoom = async (id, name) => {
             name: name
         }});
 
+        
         if (room && room.status === true) {
             throw new Error("Room occupied");
+        }
+        
+        await user.reload(); 
+
+        if(user.RoomId !== null){
+            throw new Error("User has a Room")
         }
 
         room.status = true;
