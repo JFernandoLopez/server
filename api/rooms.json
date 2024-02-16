@@ -63,6 +63,27 @@
     "image": "https://example.com/single_room8.jpg"
     },
     {
+        "type": "single room",
+        "floor": 2,
+        "price": 500,
+        "description": "Habitación individual con cama queen size, escritorio y baño privado. 30 metros cuadrados.",
+        "image": "https://example.com/single_room9.jpg"
+    },
+    {
+        "type": "single room",
+        "floor": 2,
+        "price": 500,
+        "description": "Habitación individual con cama queen size, escritorio y baño privado. 30 metros cuadrados.",
+        "image": "https://example.com/single_room10.jpg"
+    },
+    {
+        "type": "single room",
+        "floor": 2,
+        "price": 500,
+        "description": "Habitación individual con cama queen size, escritorio y baño privado. 30 metros cuadrados.",
+        "image": "https://example.com/single_room11.jpg"
+    },
+    {
     "type": "single room",
     "floor": 3,
     "price": 500,

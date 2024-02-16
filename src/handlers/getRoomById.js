@@ -1,8 +1,12 @@
-const { Room } = require('../db');
+const { Room, User } = require('../db');
 
 const getRoomById = async (id) => {
     try {
-        const room = await Room.findByPk(id);
+        const room = await Room.findByPk(id, {
+            include: {
+                model: User, attributes: ["identityCard"]
+            }
+        });
         if(!room){
             throw new Error('Room not founded')
         }

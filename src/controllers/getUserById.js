@@ -2,7 +2,7 @@ const { getUserById } = require('../handlers/getUserById');
 
 const getUserByIdHandler = async (req, res) => {
     try {
-        const {idCard} = req.body;
+        const {idCard} = req.params;
         const user = await getUserById(idCard);
         res.status(200).json(user);
     } catch (error) {

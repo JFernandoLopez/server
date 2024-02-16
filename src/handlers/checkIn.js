@@ -1,20 +1,22 @@
 const {Room, User} = require('../db');
 
-const asignRoom = async (id, userID) => {
+const asignRoom = async (id, name) => {
     try {
         const room = await Room.findByPk(id);
-        const user = await User.findByPk(userID);
+        const [user, created] = await User.findOrCreate({where: {
+            name: name
+        }});
 
         if (room && room.status === true) {
             throw new Error("Room occupied");
         }
 
         room.status = true;
-        room.UserId = userID;
+        room.UserId = user.id;
         user.RoomId = id;
 
-        await user.save();
         await room.save();
+        await user.save();
         return room;
     } catch (error) {
         console.log("Error:",error.message);

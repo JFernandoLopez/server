@@ -20,11 +20,11 @@ router.post("/user", createUserHandler);
 //Get Users
 router.get("/users", getUsersHandler);
 //Get UserById
-router.get("/user", getUserByIdHandler);
+router.get("/users/:idCard", getUserByIdHandler);
 //Get Rooms
 router.get("/rooms", getRoomsHandler);
 //Get RoomsById
-router.get("/room", getRoomByIdHandler);
+router.get("/rooms/:id", getRoomByIdHandler);
 //Check-in
 router.put("/check-in", asignRoomHandler);
 //Check-out
